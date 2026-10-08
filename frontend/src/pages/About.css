@@ -1,0 +1,70 @@
+.about-main-card {
+  padding: 3rem;
+}
+
+.about-main-card p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.icon-card {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.icon-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon-card p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.objective-list {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.objective-list li {
+  margin-bottom: 0.75rem;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+}
+
+.icon-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.icon-primary {
+  color: var(--primary-color);
+}
+
+.icon-header h2 {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .about-main-card {
+    padding: 2rem;
+  }
+}
